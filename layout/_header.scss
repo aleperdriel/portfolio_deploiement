@@ -1,0 +1,20 @@
+nav {
+    padding: 16px;
+    width: 100%;
+    font-size: 24px;
+    font-family: SeoulNamsan;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+    width: 30%;
+}
+
+nav a:hover {
+    color: $highlight_orange;
+    transition: color 0.3s;
+
+}
