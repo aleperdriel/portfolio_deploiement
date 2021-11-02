@@ -1,4 +1,12 @@
-.card_skills {
+.card {
     background-color: $light_main;
     width: 30%;
+    display: block;
+    box-shadow: 0 3px 6px #444;
+}
+
+.skills {
+    ul {
+        display: flex;
+    }
 }

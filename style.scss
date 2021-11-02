@@ -92,6 +92,14 @@ img {
 }
 
 
+.skills { 
+    section:nth-child(odd) {
+        background-color: $light_main;
+        color: $dark_font;
+    }
+}
+
+
 @media screen and (max-width : 700px) {
     .about_container {
         justify-content: center;
