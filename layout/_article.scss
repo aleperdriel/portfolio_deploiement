@@ -41,9 +41,6 @@
         grid-column: -2/-1;
         grid-row: 2/3;
 
-        p {
-
-        }
     }
     .side_title {
         margin-bottom: 16px;
@@ -53,6 +50,15 @@
         margin-bottom: 16px;
     }
 
+}
+
+.article_gallery {
+    display: flex;
+
+    img {
+        height: 100%;
+        border: 1px solid #fff;
+    }
 }
 
 
